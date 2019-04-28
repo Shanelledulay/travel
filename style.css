@@ -32,7 +32,7 @@ ul li:hover{
 .showcase{
 	height: 80vh;
 	background-image:url(../images/40.jpg);
-	background-repeat:no repeat;
+	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center;
 	margin:10px;
