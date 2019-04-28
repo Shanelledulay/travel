@@ -1,0 +1,160 @@
+body{
+	color:white;
+	background: #355C7D;
+}
+.menu{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+	margin:auto;
+}
+
+ul li{
+	list-style:none;
+	text-align:center;
+	text-decoration:none;
+	color:#800000;
+	font-family:Cambria;
+	font-size: 20px;
+	padding:15px;
+	background: #F08080;
+	transition:0.6s ease;
+ }
+ 
+ul li.active{
+	background-color: #DEF2F1;
+	color: #696969;
+}
+ul li:hover{
+	background-color:#FFE4E1;
+	color: #A0522D;
+}
+.showcase{
+	padding:150px;
+	background-image:url(../images/27.png);
+	background-repeat:no repeat;
+	background-size:cover;
+	background-position:center;
+	margin:10px;
+}
+h1{
+	font-size:75px;
+	text-align:center;
+	color: #CC0033;
+}
+.article{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap:10px;
+	height:50vh;
+	
+}
+
+.b1{
+	grid-columns:1/2;
+	grid-rows: 1/2;
+	border: 1px #f2ae72 solid;
+	text-align: center;
+}
+.b2{
+	grid-columns:2/3;
+	grid-rows: 1/3;
+	border: 1px #f2ae72 solid;
+	text-align: center;
+}
+.b3{
+	grid-columns:3/4;
+	grid-rows: 1/3;
+	border: 1px #f2ae72 solid;
+	text-align: center;
+}
+.b4{
+	grid-columns:1/2;
+	grid-rows: 2/3;
+	border: 1px #f2ae72 solid;
+	text-align: center;
+}
+.body {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-gap:10px;
+	height: 160vh;
+}
+.one{
+	grid-columns:1/2;
+	grid-rows: 1/2;
+	border: 1px #e8715b solid;
+	text-align: center;
+}
+.two{
+	grid-columns:2/3;
+	grid-rows: 1/2;
+	border: 1px #e8715b solid;
+	text-align: center;
+}
+.three{
+	grid-columns:3/4;
+	grid-rows: 1/2;
+	border: 1px #e8715b solid;
+	text-align: center;
+}
+.four{
+	grid-columns:1/2;
+	grid-rows: 2/3;
+	border: 1px #e8715b solid;
+	text-align: center;
+}
+.five{
+	grid-columns:2/3;
+	grid-rows: 2/3;
+	border: 1px #e8715b solid;
+	text-align: center;
+}
+.six{
+	grid-columns:3/4;
+	grid-rows: 2/3;
+	border: 1px #e8715b solid;
+	text-align: center;
+}
+.seven{
+	grid-columns:1/2;
+	grid-rows: 3/4;
+	border: 1px #e8715b solid;
+	text-align: center;
+}
+.eight{
+	grid-columns:2/3;
+	grid-rows: 3/4;
+	border: 1px #e8715b solid;
+	text-align: center;
+}
+.nine{
+	grid-columns:3/4;
+	grid-rows: 3/4;
+	border: 1px #e8715b solid;
+	text-align: center;
+}
+.try{
+	border: 1px #78244C solid;
+	grid-gap:10px;
+	padding: 5px;
+	margin:10px;
+	font-size:25px;
+	text-align:center;
+}
+.footer{
+	padding:1px;
+	background:#70DBDB;
+	margin:10px;
+	text-align:left;
+	color: black;
+}
+p{
+	font-style: italic;
+	font: Courier New;
+	font-size: 15px;
+}
+a{
+	text-decoration: none;
+}
